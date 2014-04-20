@@ -1,0 +1,22 @@
+{
+  "name": "Koa-Coffee",
+  "version": "0.1.0",
+  "author": "Dylan Clement",
+  "description": "Koa Example application using Coffeescript",
+  "main": "./server.js",
+  "dependencies": {
+    "koa": "0.5.x"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "devDependencies": {
+    "coffee-script": "git://github.com/xixixao/coffee-script"
+  },
+  "scripts": {
+    "start": "node --harmony server"
+  },
+  "engines": {
+    "node": "0.11.11",
+    "npm": "1.4.x"
+  }
+}
